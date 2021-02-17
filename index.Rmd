@@ -3,7 +3,6 @@ title: "officedown Example"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: "references.bib"
 biblio-style: apalike
 link-citations: yes
 description: "This is a minimal example of using the officedown package to write a Word document."

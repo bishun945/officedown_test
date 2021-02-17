@@ -1,8 +1,6 @@
 bookdown::markdown_document2:
   base_format: officedown::rdocx_document
   number_sections: no
-  # reference_docx: template.docx
-  # reference_docx: template_20210217.docx
   lists:
     ol.style: Default ol
     ul.style: Default ul

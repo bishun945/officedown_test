@@ -10,7 +10,7 @@ runs_fig1 <- list(
 
 
 ```{r}
-plot(iris)
+plot(iris[, 4:5])
 ```
 ::: {custom-style="Image Caption"}
 图 `r bkm("iris", runs_fig1)` plot of iris
