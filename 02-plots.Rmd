@@ -1,0 +1,19 @@
+# Chapter 2 {#c2}
+
+```{r}
+runs_fig2 <- list(
+  run_word_field("STYLEREF 1 \\s"),
+  ftext("."),
+  run_autonum(seq_id = "fig2", pre_label = "", post_label = "")
+)
+```
+
+
+```{r}
+plot(iris[, 2:3])
+```
+::: {custom-style="Image Caption"}
+图 `r bkm("iris3", runs_fig2)` plot of iris3
+:::
+
+Reference of \@ref(fig:iris3)
