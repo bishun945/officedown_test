@@ -1,19 +1,10 @@
 # Introduction {#intro}
 
 ```{r}
-runs_fig1 <- list(
-  run_word_field("STYLEREF 1 \\s"),
-  ftext("."),
-  run_autonum(seq_id = "fig1", pre_label = "", post_label = "")
-)
-```
-
-
-```{r}
 plot(iris[, 4:5])
 ```
 ::: {custom-style="Image Caption"}
-图 `r bkm("iris", runs_fig1)` plot of iris
+图 `r bkm("iris", one_zz)` plot of iris
 :::
 
 Reference of \@ref(fig:iris)
@@ -24,7 +15,7 @@ Reference of \@ref(fig:iris)
 plot(iris[, 1:2])
 ```
 ::: {custom-style="Image Caption"}
-图 `r bkm("iris2", runs_fig1)` plot of iris2
+图 `r bkm("iris2", any_zz)` plot of iris2
 :::
 
 Reference of \@ref(fig:iris2)

@@ -18,6 +18,16 @@ library(magrittr)
 library(ggplot2)
 opts_chunk$set(echo = TRUE, tab.lp="Table:", fig.lp="Figure:")
 bkm <- run_bookmark
+any_zz <- list(
+  run_word_field("STYLEREF 1 \\s"),
+  ftext("."),
+  run_seqfield(seqfield = "SEQ fig \u005C* Arabic")
+)
+one_zz <- list(
+  run_word_field("STYLEREF 1 \\s"),
+  ftext("."),
+  run_seqfield(seqfield = "SEQ fig \u005C* Arabic \\r 1")
+)
 ```
 
 
@@ -27,6 +37,6 @@ block_toc(level = 1)
 
 
 ```{r}
-block_toc(seq_id = c("fig1", "fig2"))
+block_toc(seq_id = "fig")
 ```
 
