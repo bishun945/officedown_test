@@ -19,6 +19,13 @@ plot(iris[, c(1, 3)])
 Reference of \@ref(fig:iris4)
 
 
+::: {custom-style="Image Caption"}
+表 `r bkm("iris4-tab", one_zz_tab)` table of iris4
+:::
+```{r}
+head(iris[, c(1, 3)])
+```
+
 
 ```{r}
 plot(iris[, c(3, 4)])
@@ -28,3 +35,11 @@ plot(iris[, c(3, 4)])
 :::
 
 Reference of \@ref(fig:iris5)
+
+
+::: {custom-style="Image Caption"}
+表 `r bkm("iris5-tab", any_zz_tab)` table of iris5
+:::
+```{r}
+head(iris[, c(3, 4)])
+```

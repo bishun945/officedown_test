@@ -19,3 +19,11 @@ plot(iris[, 1:2])
 :::
 
 Reference of \@ref(fig:iris2)
+
+::: {custom-style="Image Caption"}
+表 `r bkm("iris2-tab", one_zz_tab)` table of iris2
+:::
+```{r}
+head(iris[, 1:2])
+```
+

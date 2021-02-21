@@ -28,6 +28,17 @@ one_zz <- list(
   ftext("."),
   run_seqfield(seqfield = "SEQ fig \u005C* Arabic \\r 1")
 )
+
+any_zz_tab <- list(
+  run_word_field("STYLEREF 1 \\s"),
+  ftext("."),
+  run_seqfield(seqfield = "SEQ tab \u005C* Arabic")
+)
+one_zz_tab <- list(
+  run_word_field("STYLEREF 1 \\s"),
+  ftext("."),
+  run_seqfield(seqfield = "SEQ tab \u005C* Arabic \\r 1")
+)
 ```
 
 
@@ -38,5 +49,9 @@ block_toc(level = 1)
 
 ```{r}
 block_toc(seq_id = "fig")
+```
+
+```{r}
+block_toc(seq_id = "tab")
 ```
 
